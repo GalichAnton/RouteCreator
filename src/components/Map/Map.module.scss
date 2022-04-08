@@ -1,0 +1,15 @@
+.map {
+  border: 1px solid #e4e4e4;
+}
+
+.balloon {
+  &__header {
+    text-align: center;
+    font: 700 0.9em/1 sans-serif;
+  }
+
+  &__body {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}

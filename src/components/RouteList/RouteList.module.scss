@@ -1,0 +1,15 @@
+.route {
+  &__list {
+    padding-right: 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    counter-reset: points;
+    overflow: hidden auto;
+
+    &:empty {
+      border: 0;
+    }
+  }
+
+}
